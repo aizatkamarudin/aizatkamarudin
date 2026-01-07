@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Network Dashboard Monitor</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#0B0B0B',
+            surface: '#111111',
+            border: '#1E1E1E',
+            text: '#EDEDED',
+            muted: '#A0A0A0',
+            faint: '#6F6F6F',
+          },
+          letterSpacing: {
+            wide: '0.04em',
+          },
+          animation: {
+            fadeIn: 'fadeIn 0.6s ease-out forwards',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: 0 },
+              '100%': { opacity: 1 },
+            },
+          },
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-bg text-text font-sans opacity-0 animate-fadeIn">
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- Header -->
+    <header class="mb-16">
+      <a href="../works.html" class="text-muted text-sm hover:text-text">
+        ← Back to works
+      </a>
+    </header>
+
+    <main class="space-y-16">
+
+      <section class="space-y-6 max-w-3xl">
+
+        <h1 class="text-3xl tracking-wide">
+          Network Dashboard Monitor
+        </h1>
+
+        <p class="text-muted leading-relaxed">
+          A centralized network monitoring dashboard designed
+          to help regional managers oversee multiple network
+          sites through real-time visibility and actionable
+          operational insights.
+        </p>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          The problem
+        </h2>
+
+        <p class="text-muted leading-relaxed">
+          Network operations were monitored across multiple
+          tools with limited real-time visibility. Managers
+          struggled to quickly assess site health, identify
+          issues, and consolidate reports across regions,
+          leading to slower response times and fragmented
+          oversight.
+        </p>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          The solution
+        </h2>
+
+        <p class="text-muted leading-relaxed">
+          A unified network dashboard that aggregates real-time
+          performance data, site status, and alerts into a
+          single interface. The platform simplifies monitoring
+          and enables faster decision-making for regional
+          network management.
+        </p>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          Key features
+        </h2>
+
+        <ul class="space-y-4 text-muted">
+          <li>• Real-time network performance visualization</li>
+          <li>• Site-level status monitoring and alerts</li>
+          <li>• Centralized dashboard for multi-site oversight</li>
+          <li>• Issue identification and incident tracking</li>
+          <li>• Reporting and operational insights</li>
+        </ul>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          Impact
+        </h2>
+
+        <p class="text-muted leading-relaxed">
+          The dashboard improved network visibility, reduced
+          response time to incidents, and provided managers
+          with a clear overview of network health across
+          regions. It enabled more proactive monitoring and
+          better operational control.
+        </p>
+
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>

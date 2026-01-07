@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mobile Application Development</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#0B0B0B',
+            surface: '#111111',
+            border: '#1E1E1E',
+            text: '#EDEDED',
+            muted: '#A0A0A0',
+            faint: '#6F6F6F',
+          },
+          letterSpacing: {
+            wide: '0.04em',
+          },
+          animation: {
+            fadeIn: 'fadeIn 0.6s ease-out forwards',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: 0 },
+              '100%': { opacity: 1 },
+            },
+          },
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-bg text-text font-sans opacity-0 animate-fadeIn">
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- Header -->
+    <header class="mb-16">
+      <a href="../services.html" class="text-muted text-sm hover:text-text">
+        ← Back to services
+      </a>
+    </header>
+
+    <main class="space-y-16">
+
+      <!-- Title -->
+      <section class="space-y-4">
+        <h1 class="text-3xl tracking-wide">
+          Mobile Application Development
+        </h1>
+        <p class="text-muted max-w-2xl leading-relaxed">
+          We build mobile applications that are reliable,
+          intuitive, and designed for real-world usage,
+          not just app store screenshots.
+        </p>
+      </section>
+
+      <!-- What we do -->
+      <section class="border-t border-border pt-10 space-y-6">
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          What we do
+        </h2>
+
+        <ul class="space-y-4 text-muted max-w-2xl">
+          <li>• Cross-platform mobile application development</li>
+          <li>• Integration with backend systems and APIs</li>
+          <li>• Offline-first and low-connectivity support</li>
+          <li>• Secure authentication and user management</li>
+          <li>• Deployment and app store preparation</li>
+        </ul>
+      </section>
+
+      <!-- How we design -->
+      <section class="border-t border-border pt-10 space-y-6">
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          How we design
+        </h2>
+
+        <p class="text-muted max-w-2xl leading-relaxed">
+          Mobile interfaces are designed around speed,
+          clarity, and context. We focus on reducing steps,
+          minimizing friction, and ensuring the app remains
+          usable in the field, not just at a desk.
+        </p>
+      </section>
+
+      <!-- Typical projects -->
+      <section class="border-t border-border pt-10 space-y-6">
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          Typical projects
+        </h2>
+
+        <ul class="space-y-4 text-muted max-w-2xl">
+          <li>• Internal operational and field-work applications</li>
+          <li>• Companion apps for existing web systems</li>
+          <li>• Data collection and reporting tools</li>
+          <li>• Role-based mobile access for teams</li>
+        </ul>
+      </section>
+
+      <!-- CTA -->
+      <section class="border-t border-border pt-10 flex flex-col gap-3">
+        <a href="../contact.html" class="text-sm tracking-wide hover:text-text">
+          Start a project →
+        </a>
+        <a href="../services.html" class="text-sm tracking-wide text-muted hover:text-text">
+          View other services →
+        </a>
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>

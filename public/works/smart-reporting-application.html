@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Reporting Application</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#0B0B0B',
+            surface: '#111111',
+            border: '#1E1E1E',
+            text: '#EDEDED',
+            muted: '#A0A0A0',
+            faint: '#6F6F6F',
+          },
+          letterSpacing: {
+            wide: '0.04em',
+          },
+          animation: {
+            fadeIn: 'fadeIn 0.6s ease-out forwards',
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: 0 },
+              '100%': { opacity: 1 },
+            },
+          },
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-bg text-text font-sans opacity-0 animate-fadeIn">
+  <div class="max-w-5xl mx-auto px-6 py-12">
+
+    <!-- Header -->
+    <header class="mb-16">
+      <a href="../works.html" class="text-muted text-sm hover:text-text">
+        ← Back to works
+      </a>
+    </header>
+
+    <main class="space-y-16">
+
+      <section class="space-y-6 max-w-3xl">
+
+        <h1 class="text-3xl tracking-wide">
+          Smart Reporting Application
+        </h1>
+
+        <p class="text-muted leading-relaxed">
+          A mobile-first reporting application designed for
+          electrical contractors to replace manual reporting
+          processes with a structured, digital workflow.
+        </p>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          The problem
+        </h2>
+
+        <p class="text-muted leading-relaxed">
+          Electrical contractors relied heavily on manual
+          documentation and fragmented reporting methods.
+          Reports were time-consuming to prepare, prone to
+          human error, and difficult to track or analyze
+          across multiple projects and teams.
+        </p>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          The solution
+        </h2>
+
+        <p class="text-muted leading-relaxed">
+          A smart reporting application that digitalizes
+          data collection, analysis, and report generation.
+          The system centralizes reporting workflows, allowing
+          users to generate accurate reports efficiently
+          without relying on manual paperwork.
+        </p>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          Key features
+        </h2>
+
+        <ul class="space-y-4 text-muted">
+          <li>• Digital report creation and management</li>
+          <li>• Automated data collection and validation</li>
+          <li>• Structured report templates for consistency</li>
+          <li>• Centralized report history and tracking</li>
+          <li>• Mobile-friendly interface for field use</li>
+        </ul>
+
+      </section>
+
+      <section class="border-t border-border pt-10 space-y-6 max-w-3xl">
+
+        <h2 class="text-sm tracking-wide text-muted uppercase">
+          Impact
+        </h2>
+
+        <p class="text-muted leading-relaxed">
+          The application reduced manual workload, improved
+          reporting accuracy, and increased productivity
+          across teams. Contractors were able to focus more
+          on analysis and decision-making rather than
+          administrative tasks.
+        </p>
+
+      </section>
+
+    </main>
+  </div>
+</body>
+</html>
